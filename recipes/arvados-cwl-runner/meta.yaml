@@ -1,11 +1,11 @@
-{% set version="1.4.0" %}
+{% set version="1.4.3" %}
 package:
   name: arvados-cwl-runner
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/a/arvados-cwl-runner/arvados-cwl-runner-{{ version }}.tar.gz
-  sha256: 22b78d37a3602d470f7817ea9c82337c418110174139b3261a760d2e7f95125f
+  sha256: 45e4bf8174f3b1956bbd6f935a89c0a2d688fca4bf13e9e65fce5fda51dbf9fc
 
 build:
   noarch: python

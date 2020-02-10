@@ -1,5 +1,5 @@
-{% set version = "0.6.3" %}
-{% set sha256 = "32e69b0bd97522c04dc5eb7931b01e5da9018fb94c4d11bdb0ea377a33b11573" %}
+{% set version = "0.7.3" %}
+{% set sha256 = "b388b090786c32f5705e45f3b1836c3c1e72cc8c0b5c6fc292e357f800b2949a" %}
 
 package:
   name: treetime

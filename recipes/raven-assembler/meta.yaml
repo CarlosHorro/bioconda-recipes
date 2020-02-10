@@ -1,5 +1,5 @@
 {% set name = 'raven-assembler' %}
-{% set version = '0.0.0' %}
+{% set version = '0.0.7' %}
 
 package:
   name: {{ name }}
@@ -7,11 +7,10 @@ package:
 
 build:
   number: 0
-  skip: True  # [osx]
 
 source:
   url: https://github.com/lbcb-sci/raven/releases/download/{{ version }}/raven-v{{ version }}.tar.gz
-  sha256: 6ca62a0152e130216da2959099ca152aa21d6758770b74c430f515ff755c1b2d
+  sha256: f760116074600869c8e1d5849534df57eb0f667adf3ac270ab3a2a284e6782bf
 
 requirements:
   build:

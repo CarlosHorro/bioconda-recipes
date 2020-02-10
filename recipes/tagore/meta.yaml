@@ -1,5 +1,5 @@
 {% set name = "tagore" %}
-{% set version = "1.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jordanlab/tagore/archive/{{ version }}.tar.gz
-  sha256: 23a30f3b7c9a3dea67f6f8f59e4b12216f7348b324bebe7bdbb3f2c6b3323314
+  sha256: 3677f4e820dbdf8656514b678c932276a0d741e6b03471c9960b40ba6dbb9564
 
 build:
   number: 0
